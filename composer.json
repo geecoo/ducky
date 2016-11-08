@@ -1,0 +1,20 @@
+{
+    "name": "ducky/ducky",
+    "type": "library",
+    "description": "A universal and extensible development libraries",
+    "keywords": ["library"],
+    "homepage": "https://github.com/geecoo/ducky",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "geecoo",
+            "email": "npcmib@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": { "Ducky\\Component": "src/Ducky/Component/" }
+    }
+}
